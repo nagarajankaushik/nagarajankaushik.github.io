@@ -1,0 +1,115 @@
+* {
+    margin : 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* background-color: #DEDEDE; */
+}
+
+main {
+    font-family: 'Nunito', sans-serif;
+}
+
+.landing {
+    min-height: 100vh;
+    /* background-image: url(http://www.birds.com/wp-content/uploads/home/bird4.jpg); */
+    background: url("../wall-landscape.png");
+    background-size: cover;
+    padding: 0rem 5rem;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 10vh;
+    /* background-color: rgba(179, 179, 179, 0.568); */
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+}
+
+.nav-links li {
+    padding-left: 5rem;
+    font-size: 1.2rem;
+}
+
+#logo {
+    font-family: 'Architects Daughter', cursive;
+    font-weight: bolder;
+    font-size: 2rem;
+
+}
+
+.big-text {
+    position: absolute;
+    font-size: 7rem;
+    top: 30%;
+    left: 45%;
+    max-width: 700px;
+}
+
+#second-text {
+    font-size: 3.5rem;
+    color: rgba(0, 0, 0, 0.80);
+}
+#third-text {
+    font-size: 1.5rem;
+    color: rgba(0, 0, 0, 0.50);
+}
+
+.intro {
+    background: black;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.intro-text {
+    color: rgba(255, 255, 255, 0.89);
+    font-family: 'Nunito', sans-serif;
+    font-weight: lighter;
+    transform: translate(10%, -20%);
+    top: 30%;
+    left: 42%;
+}
+.intro-text .first {
+    font-size: 3rem;
+    color: rgba(255, 255, 255, 0.89);
+}
+
+.intro-text .second {
+    
+    color: rgba(255, 255, 255, 0.40);
+}
+.intro-text .third {
+    
+    color: rgba(255, 255, 255, 0.89);
+    max-width: 800px;
+}
+
+.slider {
+    background: #181818;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    transform: translateY(100%);
+}
+
+.hide {
+    color: black;
+    overflow: hidden;
+}
+
+.hide span {
+transform: translateY(100%);
+display: inline-block;
+}
