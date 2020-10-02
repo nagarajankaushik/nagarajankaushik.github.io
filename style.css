@@ -34,6 +34,7 @@ nav {
 .nav-links {
     display: flex;
     list-style: none;
+    /* opacity: 0; hide the menu? */
 }
 
 .nav-links li {
@@ -50,7 +51,7 @@ nav {
 
 .big-text {
     position: absolute;
-    font-size: 2.5rem;
+    font-size: 3.5rem;
     top: 30%;
     left: 45%;
     max-width: 700px;
@@ -65,7 +66,7 @@ nav {
 #third-text {
     font-size: 1.4rem;
     color: rgba(0, 0, 0, 0.50);
-    margin: 0 0 10px 0;
+    margin: 15px 0 10px 0;
 }
 
 .intro {
