@@ -1,3 +1,9 @@
+:root {
+    --primary-color: rgba(0, 0, 0, 0.70);
+    --opacity-color: rgb(0, 255, 255);
+
+}
+
 * {
     margin : 0;
     padding: 0;
@@ -31,7 +37,7 @@ nav {
 }
 
 .nav-links li {
-    padding-left: 5rem;
+    padding-left: 3rem;
     font-size: 1.2rem;
 }
 
@@ -44,19 +50,22 @@ nav {
 
 .big-text {
     position: absolute;
-    font-size: 7rem;
+    font-size: 2.5rem;
     top: 30%;
     left: 45%;
     max-width: 700px;
 }
-
+#hi {
+    font-size: 7rem;
+}
 #second-text {
-    font-size: 3.5rem;
+    font-size: 4rem;
     color: rgba(0, 0, 0, 0.80);
 }
 #third-text {
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     color: rgba(0, 0, 0, 0.50);
+    margin: 0 0 10px 0;
 }
 
 .intro {
@@ -112,4 +121,29 @@ nav {
 .hide span {
 transform: translateY(100%);
 display: inline-block;
+}
+
+/* .social {
+    margin: 0;
+    padding : 0;
+} */
+.social a {
+    margin: 0px 15px 0 0;
+    /* font-size: .8rem; */
+    text-decoration: none;
+    /* color: var(--primary-color); */
+}
+
+.social i {
+    font-size: 2rem;
+    color: var(--primary-color);
+    opacity: 0.6;
+}
+i:hover {
+    /* transform: scale(1.2); */
+    opacity : 1;
+    transition: 0.5s;
+    /* color: rgba(0, 0, 0, 0.90); */
+    /* color: var(--opacity-color); */
+
 }
